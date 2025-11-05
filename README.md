@@ -2,12 +2,20 @@
 
 Track, manage, and optimize your finances effortlessly with AI-driven insights.
 
+[live demo : https://aurion-ai-finance-platform.vercel.app/]
 
----
+screenshots : 
+
+<img width="1250" height="643" alt="wealth1" src="https://github.com/user-attachments/assets/028577e3-d1eb-4da0-a09b-f66419d1b540" />
+
+<img width="1075" height="626" alt="wealth2" src="https://github.com/user-attachments/assets/ee141043-a920-425d-a74c-7d526b3f9dd1" />
+
+<img width="1365" height="645" alt="wealth3" src="https://github.com/user-attachments/assets/489d6f99-d352-4f61-8ab3-420558fb272c" />
 
 **📝 Project Description**
 
-Wealth is a full-stack AI-driven personal finance platform that allows users to track income and expenses, manage multiple accounts, and receive AI-powered financial insights. The platform automates financial tracking and reporting, making money management simple and intelligent.
+Wealth is a full-stack AI-driven personal finance
+platform that allows users to track income and expenses, manage multiple accounts, and receive AI-powered financial insights. The platform automates financial tracking and reporting, making money management simple and intelligent.
 
 ## ⚙️ Tech Stack
 
@@ -154,4 +162,37 @@ npx prisma generate
 
 # 4️⃣ Run dev server
 npm run dev
+
+---
+## 🧠 What I Learned
+
+Built a full-stack AI finance platform using **Next.js, Tailwind CSS, Shadcn UI, Supabase, Prisma, and Clerk**.  
+Integrated **AI features** (receipt scanning & insights) and automated tasks with **Inngest**.  
+Implemented **secure authentication**, robust **form handling**, **data management**, and deployed seamlessly on **Vercel**.
+
+----
+## ⚔️ Challenges Faced
+
+- Linking Clerk, Supabase, Prisma & Inngest for smooth full-stack integration.  
+- Implementing AI receipt scanning & automated insights with Gemini AI.  
+- Ensuring responsive UI with Shadcn UI + Tailwind CSS.  
+- Securing APIs with Arcjet and validating forms using React Hook Form + Zod.
+
+----
+
+## 🔮 Future Enhancements
+
+
+- 💹 **Investment Tracking:** Add stock, crypto, and asset tracking via financial APIs.  
+- 🎯 **Goal-Based Planning:** Let users set savings goals and track progress.  
+- 📊 **Advanced Analytics:** Provide deeper insights, forecasting tools, and richer data visualizations.  
+- 🌍 **Multi-Currency Support:** Manage transactions across global currencies.  
+- ⏰ **Bill Reminders & Automation:** Track upcoming bills and automate payments.  
+- 🔗 **Third-Party Integrations:** Connect securely with banks, credit cards, and tax tools.  
+- 📚 **Financial Education:** Offer in-app learning and budgeting tips.  
+- 🧠 **Expanded AI Capabilities:** Proactive insights, fraud detection, and smarter NLP interactions.  
+- ⚙️ **Performance Optimization:** Scale efficiently for large datasets and high traffic.  
+
+---
+
 
