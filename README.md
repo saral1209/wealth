@@ -129,4 +129,65 @@ The core folder structure of this Next.js project is organized as follows:
 ├── package.json
 └── (other configuration files)
 
+----
+
+
+## ⚡ Installation & Setup Instructions
+
+Install Dependencies
+
+Navigate into the project directory and install all necessary Node.js packages:
+
+npm install
+
+Set Up Environment Variables
+
+Create a .env file in the root directory with your Clerk and Supabase credentials.
+
+Clerk Setup
+
+1. Go to Clerk and create a new application.
+
+2. Copy your Public Key and Secret Key.
+
+3. Add to .env:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pkyourpublic_key
+CLERK_SECRET_KEY=skyoursecret_key
+NEXT_PUBLIC_CLERK_SIGNIN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGNUP_URL=/sign-up
+
+**Supabase Setup**
+
+1. Go to Supabase and create a new project.
+
+2. Copy the connection string for Prisma from Project Settings → Database → Connection String.
+3. Add to .env:
+
+DATABASE_URL="postgresql://postgres:[YOUR_PASSWORD]@db.[yourprojectid].supabase.co:5432/postgres?pgbouncer=true&connection_limit=1"
+DIRECT_URL="postgresql://postgres:[YOUR_PASSWORD]@db.[yourprojectid].supabase.co:5432/postgres?schema=public"
+
+Initialize Shadcn UI Components
+
+Initialize Shadcn UI in your project:
+npx shadcn-ui@latest init
+Choose New York for style.
+Select yes for CSS variables for theming.
+Use Legacy peer deps for React 19 compatibility.
+Then, add components:
+npx shadcn-ui@latest add button badge calendar card checkbox dialog dropdown-menu input popover progress select switch table tooltip
+
+> Again, choose use Legacy peer deps if prompted.
+
+**Set Up Prisma**
+Generate the Prisma client and push your schema to Supabase:
+npx prisma db push
+npx prisma generate
+
+**Run the Development Server**
+Start the Next.js development server:
+npm run dev
+The application should now be running at http://localhost:3000.
+You can log in using your Clerk authentication setup.
+
 
