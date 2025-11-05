@@ -166,8 +166,7 @@ package.json → Project dependencies and npm scripts.
 
 other-config-files/ → Additional setup/configuration files (e.g., ESLint, Prettier).
 
-
-------
+---------
 
 ## ⚡ Installation & Setup Instructions
 
@@ -207,7 +206,7 @@ Implemented **secure authentication**, robust **form handling**, **data manageme
 - Ensuring responsive UI with Shadcn UI + Tailwind CSS.  
 - Securing APIs with Arcjet and validating forms using React Hook Form + Zod.
 
-----
+
 
 ## 🔮 Future Enhancements
 
@@ -222,6 +221,6 @@ Implemented **secure authentication**, robust **form handling**, **data manageme
 - 🧠 **Expanded AI Capabilities:** Proactive insights, fraud detection, and smarter NLP interactions.  
 - ⚙️ **Performance Optimization:** Scale efficiently for large datasets and high traffic.  
 
----
+
 
 
