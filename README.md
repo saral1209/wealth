@@ -166,9 +166,9 @@ package.json → Project dependencies and npm scripts.
 
 other-config-files/ → Additional setup/configuration files (e.g., ESLint, Prettier).
 
----------
 
-## ⚡ Installation & Setup Instructions
+
+⚡ **Installation & Setup Instructions**
 
 ```bash
 # 1️⃣ Install dependencies
@@ -191,15 +191,15 @@ npx prisma generate
 # 4️⃣ Run dev server
 npm run dev
 
-------
-## 🧠 What I Learned
+
+🧠 **What I Learned**
 
 Built a full-stack AI finance platform using **Next.js, Tailwind CSS, Shadcn UI, Supabase, Prisma, and Clerk**.  
 Integrated **AI features** (receipt scanning & insights) and automated tasks with **Inngest**.  
 Implemented **secure authentication**, robust **form handling**, **data management**, and deployed seamlessly on **Vercel**.
 
---------
-## ⚔️ Challenges Faced
+
+⚔️ **Challenges Faced**
 
 - Linking Clerk, Supabase, Prisma & Inngest for smooth full-stack integration.  
 - Implementing AI receipt scanning & automated insights with Gemini AI.  
@@ -208,7 +208,7 @@ Implemented **secure authentication**, robust **form handling**, **data manageme
 
 
 
-## 🔮 Future Enhancements
+🔮 **Future Enhancements**
 
 
 - 💹 **Investment Tracking:** Add stock, crypto, and asset tracking via financial APIs.  
