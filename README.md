@@ -95,3 +95,9 @@ The "Wealth" platform is a full-stack AI finance platform with clear communicati
 
 | **Security**              | Arcjet                     | Rate limiting, bot protection, and API security.                       |
 | **Deployment**            | Vercel                     | Hosting and deployment platform for the app.                           |
+
+------
+
+## 6️⃣ 📂 Folder Structure 
+
+├── app/ │   ├── (auth)/sign-in/[[...sign-in]]/page.jsx │   ├── (auth)/sign-up/[[...sign-up]]/page.jsx │   ├── api/ │   ├── dashboard/ │   ├── account/ │   ├── transactions/ │   ├── layout.jsx │   └── page.jsx ├── components/ │   ├── ui/ │   └── (custom components) ├── public/ │   ├── logo.png │   └── banner.jpeg ├── .env ├── middleware.js ├── package.json └── (other config files)
