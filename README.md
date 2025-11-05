@@ -82,8 +82,7 @@ The "Wealth" platform is a full-stack AI finance platform with clear communicati
 
 ### 🔄 Communication Flow (Mermaid Diagram)
 
-```mermaid
-graph TD
+
     A[User Interaction] --> B[Frontend - React/Next.js UI]
     B --> C{API Requests}
     C --> D[Backend - Next.js API Routes + Prisma]
@@ -92,12 +91,6 @@ graph TD
     D --> G[Arcjet - Security / Rate Limiting]
     D --> H[Inngest - Serverless & Cron Jobs]
     B --> I[Clerk - Authentication & User Management]
-
-------
-
-
-
-
 
 
 | **Security**              | Arcjet                     | Rate limiting, bot protection, and API security.                       |
