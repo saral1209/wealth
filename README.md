@@ -106,39 +106,68 @@ The "Wealth" platform is a full-stack AI finance platform with clear communicati
 
 ------
 
-## 6️⃣ 📂 Folder Structure 
+## 📂 Folder Structure 
 
 The core folder structure of this Next.js project is organized as follows:
 
+```bash
+📦 ai-finance-platform/
+├── 📂 app/
+│   ├── 📂 (auth)/
+│   │   ├── 📂 sign-in/
+│   │   │   ├── 📂 [[...sign-in]]/
+│   │   │   │   └── 📄 page.jsx
+│   │   ├── 📂 sign-up/
+│   │   │   ├── 📂 [[...sign-up]]/
+│   │   │   │   └── 📄 page.jsx
+│   │   └── 📄 layout.jsx
+│   ├── 📂 api/
+│   ├── 📂 dashboard/
+│   ├── 📂 account/
+│   ├── 📂 transactions/
+│   ├── 📄 layout.jsx
+│   └── 📄 page.jsx
+├── 📂 components/
+│   ├── 📂 ui/
+│   └── 📁 custom-components/
+├── 📂 public/
+│   ├── 🖼️ logo.png
+│   └── 🖼️ banner.jpeg
+├── ⚙️ .env
+├── ⚙️ middleware.js
+├── 📜 package.json
+└── ⚙️ other-config-files/
 
-├── app/
-│   ├── (auth)/
-│   │   ├── sign-in/
-│   │   │   ├── [[...sign-in]]/
-│   │   │   │   └── page.jsx
-│   │   ├── sign-up/
-│   │   │   ├── [[...sign-up]]/
-│   │   │   │   └── page.jsx
-│   │   └── layout.jsx
-│   ├── api/
-│   ├── dashboard/
-│   ├── account/
-│   ├── transactions/
-│   ├── layout.jsx
-│   └── page.jsx
-├── components/
-│   ├── ui/
-│   └── (Your custom components)
-├── public/
-│   ├── logo.png
-│   └── banner.jpeg
-├── .env
-├── middleware.js
-├── package.json
-└── (other configuration files)
+
+
+Folder Descriptions
+
+app/ → Core directory using Next.js App Router. Contains routes, layouts, and pages.
+
+(auth)/ → Handles Clerk authentication pages like sign-in and sign-up.
+
+api/ → API routes for backend logic and data handling.
+
+dashboard/ → Main user dashboard showing insights and financial overview.
+
+account/ → User account settings like username, profile photo, etc.
+
+transactions/ → Manage, view, and add income/expense transactions.
+
+components/ → Reusable UI parts built using Shadcn UI and custom React components.
+
+public/ → Static assets like images and icons.
+
+.env → Environment variables (e.g., Clerk, Supabase, Gemini AI keys).
+
+middleware.js → Protects routes and manages authentication redirects.
+
+package.json → Project dependencies and npm scripts.
+
+other-config-files/ → Additional setup/configuration files (e.g., ESLint, Prettier).
+
 
 ----
-
 
 ## ⚡ Installation & Setup Instructions
 
