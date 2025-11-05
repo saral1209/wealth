@@ -100,4 +100,33 @@ The "Wealth" platform is a full-stack AI finance platform with clear communicati
 
 ## 6️⃣ 📂 Folder Structure 
 
-├── app/ │   ├── (auth)/sign-in/[[...sign-in]]/page.jsx │   ├── (auth)/sign-up/[[...sign-up]]/page.jsx │   ├── api/ │   ├── dashboard/ │   ├── account/ │   ├── transactions/ │   ├── layout.jsx │   └── page.jsx ├── components/ │   ├── ui/ │   └── (custom components) ├── public/ │   ├── logo.png │   └── banner.jpeg ├── .env ├── middleware.js ├── package.json └── (other config files)
+The core folder structure of this Next.js project is organized as follows:
+
+
+├── app/
+│   ├── (auth)/
+│   │   ├── sign-in/
+│   │   │   ├── [[...sign-in]]/
+│   │   │   │   └── page.jsx
+│   │   ├── sign-up/
+│   │   │   ├── [[...sign-up]]/
+│   │   │   │   └── page.jsx
+│   │   └── layout.jsx
+│   ├── api/
+│   ├── dashboard/
+│   ├── account/
+│   ├── transactions/
+│   ├── layout.jsx
+│   └── page.jsx
+├── components/
+│   ├── ui/
+│   └── (Your custom components)
+├── public/
+│   ├── logo.png
+│   └── banner.jpeg
+├── .env
+├── middleware.js
+├── package.json
+└── (other configuration files)
+
+
